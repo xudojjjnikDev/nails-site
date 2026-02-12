@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;    
+}
+
 :root {
     --primary: #9d4edd;      /* Основной фиолетовый */
     --primary-dark: #7b2cbf; /* Темный фиолетовый */
