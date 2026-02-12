@@ -185,28 +185,28 @@
                     <form id="appointment-form">
                         <div class="form-group">
                             <label for="name"><i class="fas fa-user"></i> Ваше имя</label>
-                            <input type="text" id="name" placeholder="Например, Анна" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="phone"><i class="fas fa-phone"></i> Телефон</label>
-                            <input type="tel" id="phone" placeholder="+7 (XXX) XXX-XX-XX" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="date"><i class="fas fa-calendar"></i> Желаемая дата</label>
-                            <input type="date" id="date" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="message"><i class="fas fa-comment"></i> Пожелания</label>
-                            <textarea id="message" placeholder="Например: френч, длина, цвет..." rows="4"></textarea>
-                        </div>
-                        
-                        <button type="submit" class="btn btn-primary btn-block">
-                            <i class="fas fa-paper-plane"></i> Отправить заявку
-                        </button>
-                    </form>
+                            <input type="text" id="name" name="name" placeholder="Например, Анна" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="phone"><i class="fas fa-phone"></i> Телефон</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+7 (999) 123-45-67" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="date"><i class="fas fa-calendar"></i> Желаемая дата</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="message"><i class="fas fa-comment"></i> Пожелания</label>
+                    <textarea id="message" name="message" placeholder="Например: френч, длина, цвет..." rows="4"></textarea>
+                </div>
+    
+                <button type="submit" class="btn btn-primary btn-block">
+                    <i class="fas fa-paper-plane"></i> Отправить заявку
+                </button>
+        </form>
                 </div>
             </div>
         </div>
