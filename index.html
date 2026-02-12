@@ -272,12 +272,12 @@
         });
     </script>
 
+    <script src="config.js"></script>
 
     <script>
     // 🔧 НАСТРОЙКИ - ЗАПОЛНИ ЭТО!
-    const TELEGRAM_BOT_TOKEN = '';    // От @BotFather
-    const TELEGRAM_CHAT_ID = '7168373439';        // От @userinfobot
-
+    const TELEGRAM_BOT_TOKEN = CONFIG.TELEGRAM_BOT_TOKEN;
+    const TELEGRAM_CHAT_ID = CONFIG.TELEGRAM_CHAT_ID;
     // Отправка формы
     document.getElementById('appointment-form').addEventListener('submit', async function(e) {
         e.preventDefault();
