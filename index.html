@@ -513,6 +513,10 @@
 
                     if (result.ok) {
                         alert('✅ Спасибо! Заявка отправлена. Я свяжусь с вами в течение часа.');
+
+                    if (typeof ym !== 'undefined') {
+                        ym(106835472, 'reachGoal', 'submit_appointment');
+                    }
                         this.reset();
                     } else {
                         alert('❌ Ошибка при отправке. Пожалуйста, напишите мне в Telegram напрямую.');
